@@ -5,6 +5,4 @@ export interface ElementResizeDetectorOptionsInterface {
     debug?: boolean;
 }
 
-export declare class ElementResizeDetector {
-    constructor(options?: ElementResizeDetectorOptionsInterface);
-}
+export declare function elementResizeDetector(options?: ElementResizeDetectorOptionsInterface);
