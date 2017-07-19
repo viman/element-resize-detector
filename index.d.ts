@@ -37,4 +37,7 @@ declare module "element-resize-detector" {
     export = elementResizeDetector;
 
     function elementResizeDetector(options: ElementResizeDetectorOptions): ElementResizeDetector;
+
+    declare namespace elementResizeDetector {
+    }
 }
