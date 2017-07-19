@@ -38,6 +38,6 @@ declare module "element-resize-detector" {
 
     function elementResizeDetector(options: ElementResizeDetectorOptions): ElementResizeDetector;
 
-    declare namespace elementResizeDetector {
+    namespace elementResizeDetector {
     }
 }
